@@ -1,0 +1,97 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'botbuilder-cognitiveservices' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData botbuilder-cognitiveservices
+8 silly fetchNamedPackageData botbuilder-cognitiveservices
+9 silly mapToRegistry name botbuilder-cognitiveservices
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/botbuilder-cognitiveservices
+13 verbose request uri https://registry.npmjs.org/botbuilder-cognitiveservices
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 10:47:49
+16 verbose request id b345c30f90386d36
+17 http request GET https://registry.npmjs.org/botbuilder-cognitiveservices
+18 http 200 https://registry.npmjs.org/botbuilder-cognitiveservices
+19 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+19 verbose headers   server: 'UploadServer',
+19 verbose headers   'cache-control': 'max-age=300',
+19 verbose headers   'last-modified': 'Wed, 3 May 2017 22:38:30 GMT',
+19 verbose headers   etag: '"590a5be6-1def"',
+19 verbose headers   'content-encoding': 'gzip',
+19 verbose headers   'content-length': '1916',
+19 verbose headers   'accept-ranges': 'bytes',
+19 verbose headers   date: 'Thu, 25 Jan 2018 12:47:49 GMT',
+19 verbose headers   via: '1.1 varnish',
+19 verbose headers   age: '0',
+19 verbose headers   connection: 'keep-alive',
+19 verbose headers   'x-served-by': 'cache-gru17130-GRU',
+19 verbose headers   'x-cache': 'MISS',
+19 verbose headers   'x-cache-hits': '0',
+19 verbose headers   'x-timer': 'S1516884470.733104,VS0,VE197',
+19 verbose headers   vary: 'Accept-Encoding, Accept' }
+20 silly get cb [ 200,
+20 silly get   { 'content-type': 'application/json; charset=UTF-8',
+20 silly get     server: 'UploadServer',
+20 silly get     'cache-control': 'max-age=300',
+20 silly get     'last-modified': 'Wed, 3 May 2017 22:38:30 GMT',
+20 silly get     etag: '"590a5be6-1def"',
+20 silly get     'content-encoding': 'gzip',
+20 silly get     'content-length': '1916',
+20 silly get     'accept-ranges': 'bytes',
+20 silly get     date: 'Thu, 25 Jan 2018 12:47:49 GMT',
+20 silly get     via: '1.1 varnish',
+20 silly get     age: '0',
+20 silly get     connection: 'keep-alive',
+20 silly get     'x-served-by': 'cache-gru17130-GRU',
+20 silly get     'x-cache': 'MISS',
+20 silly get     'x-cache-hits': '0',
+20 silly get     'x-timer': 'S1516884470.733104,VS0,VE197',
+20 silly get     vary: 'Accept-Encoding, Accept' } ]
+21 verbose get saving botbuilder-cognitiveservices to /home/ocarlosroberto/.npm/registry.npmjs.org/botbuilder-cognitiveservices/.cache.json
+22 silly install normalizeTree
+23 silly loadCurrentTree Finishing
+24 silly loadIdealTree Starting
+25 silly install loadIdealTree
+26 silly cloneCurrentTree Starting
+27 silly install cloneCurrentTreeToIdealTree
+28 silly cloneCurrentTree Finishing
+29 silly loadShrinkwrap Starting
+30 silly install loadShrinkwrap
+31 silly loadShrinkwrap Finishing
+32 silly loadAllDepsIntoIdealTree Starting
+33 silly install loadAllDepsIntoIdealTree
+34 silly rollbackFailedOptional Starting
+35 silly rollbackFailedOptional Finishing
+36 silly runTopLevelLifecycles Starting
+37 silly runTopLevelLifecycles Finishing
+38 silly install printInstalled
+39 verbose stack Error: Refusing to install botbuilder-cognitiveservices as a dependency of itself
+39 verbose stack     at checkSelf (/usr/share/npm/lib/install/validate-args.js:40:14)
+39 verbose stack     at Array.<anonymous> (/usr/share/npm/node_modules/slide/lib/bind-actor.js:15:8)
+39 verbose stack     at LOOP (/usr/share/npm/node_modules/slide/lib/chain.js:15:14)
+39 verbose stack     at chain (/usr/share/npm/node_modules/slide/lib/chain.js:20:5)
+39 verbose stack     at /usr/share/npm/lib/install/validate-args.js:15:5
+39 verbose stack     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:35
+39 verbose stack     at Array.forEach (native)
+39 verbose stack     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:11
+39 verbose stack     at Array.forEach (native)
+39 verbose stack     at asyncMap (/usr/share/npm/node_modules/slide/lib/async-map.js:51:8)
+40 verbose cwd /home/ocarlosroberto/Documentos/NodeJS/MaratonaBOTs/BotBuilder-CognitiveServices/Node/samples/QnAMaker/QnAMakerBotWithActiveLearning
+41 error Linux 4.10.0-28-generic
+42 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "--save" "botbuilder-cognitiveservices"
+43 error node v4.2.6
+44 error npm  v3.5.2
+45 error code ENOSELF
+46 error Refusing to install botbuilder-cognitiveservices as a dependency of itself
+47 error If you need help, you may report this error at:
+47 error     <https://github.com/npm/npm/issues>
+48 verbose exit [ 1, true ]
